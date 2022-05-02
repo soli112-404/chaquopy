@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="57px"
+        android:layout_height="90px"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/back"
+        tools:ignore="ContentDescription,PxUsage" />
+
+    <ImageView
+        android:id="@+id/error"
+        android:layout_width="205dp"
+        android:layout_height="154dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="297dp"
+        android:background="@drawable/error404"
+        tools:ignore="ContentDescription,PxUsage"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="1000px"
+        android:gravity="center"
+        android:text="sorry"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="1070px"
+        android:gravity="center"
+        android:text="This section is not yet available"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="1140px"
+        android:gravity="center"
+        android:text="we working on it."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText,PxUsage" />
+
+</RelativeLayout>

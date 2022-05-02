@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="57px"
+        android:layout_height="90px"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="1742px"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="1007px"
+        android:background="@drawable/back"
+        tools:ignore="ContentDescription,PxUsage" />
+
+    <TextView
+        android:id="@+id/textii"
+        android:layout_width="1080px"
+        android:layout_height="150px"
+        android:layout_marginTop="500px"
+        android:layout_marginBottom="1198px"
+        android:gravity="center"
+        android:text="type a link"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        tools:ignore="HardcodedText,PxUsage,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/Ed_text"
+        android:layout_width="1080px"
+        android:layout_height="150px"
+        android:layout_marginTop="850px"
+        android:layout_marginBottom="848px"
+        android:text=""
+        tools:ignore="Autofill,HardcodedText,LabelFor,PxUsage,TextFields" />
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="320px"
+        android:layout_height="150px"
+        android:layout_marginTop="1100px"
+        android:layout_marginBottom="598px"
+        android:layout_marginLeft="380px"
+        android:layout_marginRight="380px"
+        android:text="check"
+        tools:ignore="HardcodedText,PxUsage,RtlHardcoded" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
